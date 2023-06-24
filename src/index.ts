@@ -35,7 +35,6 @@ connectMongoDB();
 server.register(import('./routes/signup'));
 server.register(import('./routes/login'));
 
-// port run 3000
 const port = 5000;
 
 server.listen(port, '0.0.0.0', (err, address) => {
