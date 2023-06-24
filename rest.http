@@ -1,0 +1,22 @@
+POST http://localhost:5000/signup HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "jyot",
+    "email": "jyot@gmail.com",
+    "password": "1234567891"
+}
+
+
+
+
+
+
+###
+POST http://localhost:5000/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "jyot@gmail.com",
+    "password": "1234567891"
+}
